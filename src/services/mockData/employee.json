@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@peoplehub.com",
+    "phone": "(555) 123-4567",
+    "department": "Engineering",
+    "position": "Senior Software Engineer",
+    "startDate": "2022-03-15",
+    "status": "active",
+    "manager": "David Kim"
+  },
+  {
+    "id": "2",
+    "name": "Mike Johnson",
+    "email": "mike.johnson@peoplehub.com",
+    "phone": "(555) 234-5678",
+    "department": "Marketing",
+    "position": "Marketing Manager",
+    "startDate": "2021-07-22",
+    "status": "active",
+    "manager": "Lisa Wong"
+  },
+  {
+    "id": "3",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@peoplehub.com",
+    "phone": "(555) 345-6789",
+    "department": "Design",
+    "position": "UX Designer",
+    "startDate": "2023-01-10",
+    "status": "on leave",
+    "manager": "Alex Rodriguez"
+  },
+  {
+    "id": "4",
+    "name": "David Kim",
+    "email": "david.kim@peoplehub.com",
+    "phone": "(555) 456-7890",
+    "department": "Engineering",
+    "position": "Engineering Manager",
+    "startDate": "2020-11-05",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "5",
+    "name": "Alex Rodriguez",
+    "email": "alex.rodriguez@peoplehub.com",
+    "phone": "(555) 567-8901",
+    "department": "Design",
+    "position": "Design Director",
+    "startDate": "2021-09-18",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "6",
+    "name": "Lisa Wong",
+    "email": "lisa.wong@peoplehub.com",
+    "phone": "(555) 678-9012",
+    "department": "Marketing",
+    "position": "VP of Marketing",
+    "startDate": "2020-04-12",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "7",
+    "name": "Jennifer Lee",
+    "email": "jennifer.lee@peoplehub.com",
+    "phone": "(555) 789-0123",
+    "department": "Executive",
+    "position": "Chief Technology Officer",
+    "startDate": "2019-08-01",
+    "status": "active",
+    "manager": null
+  },
+  {
+    "id": "8",
+    "name": "Tom Brady",
+    "email": "tom.brady@peoplehub.com",
+    "phone": "(555) 890-1234",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "startDate": "2022-12-03",
+    "status": "active",
+    "manager": "Rachel Green"
+  },
+  {
+    "id": "9",
+    "name": "Rachel Green",
+    "email": "rachel.green@peoplehub.com",
+    "phone": "(555) 901-2345",
+    "department": "Sales",
+    "position": "Sales Manager",
+    "startDate": "2021-05-17",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "10",
+    "name": "James Wilson",
+    "email": "james.wilson@peoplehub.com",
+    "phone": "(555) 012-3456",
+    "department": "HR",
+    "position": "HR Specialist",
+    "startDate": "2022-08-20",
+    "status": "active",
+    "manager": "Maria Garcia"
+  },
+  {
+    "id": "11",
+    "name": "Maria Garcia",
+    "email": "maria.garcia@peoplehub.com",
+    "phone": "(555) 123-4567",
+    "department": "HR",
+    "position": "HR Manager",
+    "startDate": "2020-02-14",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "12",
+    "name": "Kevin Chen",
+    "email": "kevin.chen@peoplehub.com",
+    "phone": "(555) 234-5678",
+    "department": "Engineering",
+    "position": "Frontend Developer",
+    "startDate": "2023-04-01",
+    "status": "active",
+    "manager": "David Kim"
+  },
+  {
+    "id": "13",
+    "name": "Sophie Turner",
+    "email": "sophie.turner@peoplehub.com",
+    "phone": "(555) 345-6789",
+    "department": "Design",
+    "position": "Product Designer",
+    "startDate": "2022-10-15",
+    "status": "inactive",
+    "manager": "Alex Rodriguez"
+  },
+  {
+    "id": "14",
+    "name": "Ryan Miller",
+    "email": "ryan.miller@peoplehub.com",
+    "phone": "(555) 456-7890",
+    "department": "Operations",
+    "position": "Operations Manager",
+    "startDate": "2021-12-06",
+    "status": "active",
+    "manager": "Jennifer Lee"
+  },
+  {
+    "id": "15",
+    "name": "Ashley Davis",
+    "email": "ashley.davis@peoplehub.com",
+    "phone": "(555) 567-8901",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "startDate": "2023-02-28",
+    "status": "active",
+    "manager": "Ryan Miller"
+  }
+]
