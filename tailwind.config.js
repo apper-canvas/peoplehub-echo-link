@@ -45,6 +45,10 @@ export default {
       borderRadius: {
         'xl': '0.75rem',
         '2xl': '1rem'
+},
+      zIndex: {
+        '60': '60',
+        '70': '70'
       }
     },
   },

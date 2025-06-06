@@ -26,10 +26,10 @@ import React from 'react'
                 </div>
               </div>
 
-              <div className="flex items-center space-x-2">
+<div className="flex items-center space-x-2 flex-shrink-0">
                 <Badge color={getStatusColor(employee.status)}>{employee.status || 'Unknown'}</Badge>
 
-                <div className="flex space-x-1">
+                <div className="flex space-x-1 flex-shrink-0">
                   <Button onClick={() => onView(employee)} variant="icon-neutral" title="View details">
                     <Icon name="Eye" size={14} className="text-surface-600 dark:text-surface-400" />
                   </Button>
