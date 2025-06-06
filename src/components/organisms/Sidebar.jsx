@@ -4,7 +4,17 @@ import Icon from '@/components/atoms/Icon'
 import NavItem from '@/components/molecules/NavItem'
 import Heading from '@/components/atoms/Heading'
 
-const Sidebar = ({ isOpen, onClose, navigation }) => {
+const Sidebar = ({ isOpen, onClose }) => {
+  const navigation = [
+    { name: 'Dashboard', href: '/', icon: 'LayoutDashboard' },
+    { name: 'Employees', href: '/employees', icon: 'Users' },
+    { name: 'Leave Requests', href: '/leave', icon: 'Calendar' },
+    { name: 'Performance', href: '/performance', icon: 'TrendingUp' },
+    { name: 'Recruitment', href: '/recruitment', icon: 'UserPlus' },
+    { name: 'Reports', href: '/reports', icon: 'BarChart3' },
+    { name: 'Settings', href: '/settings', icon: 'Settings' }
+  ]
+
   return (
     <>
       {/* Desktop Sidebar */}

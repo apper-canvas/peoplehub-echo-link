@@ -1,11 +1,47 @@
-import * as Icons from 'lucide-react';
+import { 
+  Home,
+  Plus,
+  Edit,
+  Trash2,
+  Menu,
+  X,
+  Sun,
+  Moon,
+  Download,
+  Upload,
+  Filter,
+  Smile,
+  LayoutDashboard,
+  TrendingUp,
+  UserPlus
+} from 'lucide-react';
 
-const ApperIcon = ({ name, ...props }) => {
-    let IconComponent = Icons[name];
-    if (!IconComponent) {
-        console.warn(`Icon "${name}" does not exist in lucide-react`);
-        IconComponent = Icons['Smile'];
-    }
-    return <IconComponent {...props} />;
+const iconMap = {
+  Home,
+  Plus,
+  Edit,
+  Trash2,
+  Menu,
+  X,
+  Sun,
+  Moon,
+  Download,
+  Upload,
+  Filter,
+  Smile,
+  LayoutDashboard,
+  TrendingUp,
+  UserPlus
 };
+
+const ApperIcon = ({ name, size = 20, className = '', ...props }) => {
+  const IconComponent = iconMap[name] || Home;
+  
+  if (!iconMap[name]) {
+    console.warn(`Icon "${name}" does not exist in the icon map`);
+  }
+  
+  return <IconComponent size={size} className={className} {...props} />;
+};
+
 export default ApperIcon;
